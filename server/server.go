@@ -17,12 +17,12 @@ import (
 
 	"time"
 
-	. "github.com/kwonalbert/riffle/lib" //types and utils
+	. "github.com/optimisticninja/riffle/lib" //types and utils
 
-	"github.com/dedis/crypto/abstract"
-	"github.com/dedis/crypto/edwards"
-	"github.com/dedis/crypto/proof"
-	"github.com/dedis/crypto/shuffle"
+	"gopkg.in/dedis/crypto.v0/abstract"
+	"gopkg.in/dedis/crypto.v0/edwards"
+	"gopkg.in/dedis/crypto.v0/proof"
+	"gopkg.in/dedis/crypto.v0/shuffle"
 
 	"golang.org/x/crypto/nacl/secretbox"
 	"golang.org/x/crypto/sha3"

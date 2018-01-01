@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	. "github.com/kwonalbert/riffle/lib" //types and utils
+	. "github.com/optimisticninja/riffle/lib" //types and utils
 
-	"github.com/dedis/crypto/abstract"
-	"github.com/dedis/crypto/edwards"
+	"gopkg.in/dedis/crypto.v0/abstract"
+	"gopkg.in/dedis/crypto.v0/edwards"
 
 	"golang.org/x/crypto/nacl/secretbox"
 	"golang.org/x/crypto/sha3"

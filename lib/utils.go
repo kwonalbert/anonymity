@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dedis/crypto/abstract"
-	"github.com/dedis/crypto/random"
+	"gopkg.in/dedis/crypto.v0/abstract"
+	"gopkg.in/dedis/crypto.v0/random"
 )
 
 func SetBit(n_int int, b bool, bs []byte) {
